@@ -1,0 +1,23 @@
+name: Publish to Pages
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - # Make sure we only include the helm repository files
+        run: |
+          mkdir _site
+          mv *.tgz index.yaml _site/
+
+      - uses: actions/upload-page-artifact@v1
+        with:
+          path: _site/
