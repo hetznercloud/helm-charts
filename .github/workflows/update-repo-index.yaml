@@ -2,9 +2,10 @@ name: Update repository index
 on:
   push:
     branches:
-      - main
+      - "*"
     paths:
       - "*.tgz"
+      - ".github/workflows/update-repo-index.yaml"
 
 jobs:
   index:
@@ -24,12 +25,17 @@ jobs:
         run: |
           helm repo index .
 
-      - name: Commit & Push
+      - name: Commit
         run: |
           git config user.name hcloud-bot
           git config user.email github-bot@hetzner-cloud.de
 
           git add index.yaml
           git commit -m "chore: update repository index"
+          
+          git show
 
+      - name: Push
+        if: "github.ref == 'refs/heads/main'"
+        run: |
           git push origin
