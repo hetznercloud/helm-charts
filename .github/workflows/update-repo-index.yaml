@@ -37,6 +37,7 @@ jobs:
 
       - name: Push
         #if: "github.ref == 'refs/heads/main'"
+        permissions: read-all|write-all
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
