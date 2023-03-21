@@ -4,8 +4,6 @@ Chart Repository for Hetzner Cloud Kubernetes Integrations.
 
 ## Usage
 
-> :warning: This repo is still under construction and can not be used.
-
 You can add the repository using the command:
 
 ```shell
