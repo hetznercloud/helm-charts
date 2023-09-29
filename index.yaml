@@ -89,4 +89,19 @@ entries:
     urls:
     - hcloud-cloud-controller-manager-v1.14.0-rc.1.tgz
     version: v1.14.0-rc.1
-generated: "2023-09-18T12:07:02.629702552Z"
+  hcloud-csi:
+  - apiVersion: v2
+    created: "2023-09-29T06:58:18.91419034Z"
+    description: Helm Chart for the CSI Driver on Hetzner Cloud
+    digest: eda332b7789efcd01c24eab91b23fd265f5b9ed42ce0d343d2787328ac331158
+    home: https://github.com/hetznercloud/csi-driver
+    maintainers:
+    - email: support@hetzner.com
+      name: Hetzner Cloud
+      url: https://github.com/hetznercloud
+    name: hcloud-csi
+    type: application
+    urls:
+    - hcloud-csi-2.5.1.tgz
+    version: 2.5.1
+generated: "2023-09-29T06:58:18.910567868Z"
