@@ -12,4 +12,5 @@ You can add the repository using the command:
 
 You can learn more about the charts in the respective projects:
 
-- https://github.com/hetznercloud/hcloud-cloud-controller-manager
+- https://github.com/hetznercloud/hcloud-cloud-controller-manager/tree/main/chart
+- https://github.com/hetznercloud/csi-driver/tree/main/chart
