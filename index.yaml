@@ -115,6 +115,20 @@ entries:
     version: v1.14.0-rc.1
   hcloud-csi:
   - apiVersion: v2
+    created: "2024-08-08T14:24:02.123885873Z"
+    description: Helm Chart for the CSI Driver on Hetzner Cloud
+    digest: 75fcc25a21b9fc067582069094628dbd37a650f588ceced67f8c8100d172294d
+    home: https://github.com/hetznercloud/csi-driver
+    maintainers:
+    - email: support@hetzner.com
+      name: Hetzner Cloud
+      url: https://github.com/hetznercloud
+    name: hcloud-csi
+    type: application
+    urls:
+    - hcloud-csi-2.9.0.tgz
+    version: 2.9.0
+  - apiVersion: v2
     created: "2024-06-24T16:04:11.981755417Z"
     description: Helm Chart for the CSI Driver on Hetzner Cloud
     digest: 2217170645eaa81dc84b174ddf1f905169af5b8d580a284161db8505ae64b5d9
@@ -184,4 +198,4 @@ entries:
     urls:
     - hcloud-csi-2.5.1.tgz
     version: 2.5.1
-generated: "2024-07-08T10:36:56.016665066Z"
+generated: "2024-08-08T14:24:02.121586628Z"
