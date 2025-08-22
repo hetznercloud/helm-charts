@@ -18,7 +18,7 @@ jobs:
           mkdir _site
           mv *.tgz index.yaml _site/
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: _site/
 
