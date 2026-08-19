@@ -2,6 +2,14 @@ apiVersion: v1
 entries:
   cert-manager-webhook-hetzner:
   - apiVersion: v1
+    created: "2026-08-19T11:57:30.388111939Z"
+    description: cert-manager ACME webhook for Hetzner
+    digest: edcd23028a7df2f38bd61402c38d2273c5f1bea3d829a42544811254dc5b37cc
+    name: cert-manager-webhook-hetzner
+    urls:
+    - cert-manager-webhook-hetzner-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v1
     created: "2026-08-14T12:58:02.016877916Z"
     description: cert-manager ACME webhook for Hetzner
     digest: 9be7c850d23bcd3dcce88316bae321e19b4ea7192f7b400caffb771a6f6391d9
@@ -857,4 +865,4 @@ entries:
     urls:
     - hcloud-csi-2.5.1.tgz
     version: 2.5.1
-generated: "2026-08-14T12:58:02.010836395Z"
+generated: "2026-08-19T11:57:30.382788951Z"
