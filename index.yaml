@@ -147,6 +147,14 @@ entries:
     version: 0.1.0
   hcloud-cloud-controller-manager:
   - apiVersion: v2
+    created: "2026-10-06T08:03:35.978688952Z"
+    digest: 3d30781e06c3ae69aed569f217bf5e0c7015d0d1f7dc56cd85b90d2355fbf380
+    name: hcloud-cloud-controller-manager
+    type: application
+    urls:
+    - hcloud-cloud-controller-manager-1.39.0.tgz
+    version: 1.39.0
+  - apiVersion: v2
     created: "2026-10-01T07:33:13.656332597Z"
     digest: d5dc180f47ed733b42af814ede552ca454cf8ed4e0af12be8c2bd6ad648dd374
     name: hcloud-cloud-controller-manager
@@ -925,4 +933,4 @@ entries:
     urls:
     - hcloud-csi-2.5.1.tgz
     version: 2.5.1
-generated: "2026-10-01T07:33:13.655806546Z"
+generated: "2026-10-06T08:03:35.978040757Z"
